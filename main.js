@@ -17,16 +17,18 @@ document.getElementById("action1-btn").addEventListener("click", function(){
 // Use JS to add an h2 into 'heading2' with button click.
 // The HTML has been created, this is your chance to add JS. 
 
-
+document.getElementById("header2-btn").addEventListener("click", function(){
+    document.getElementById("header2-message").innerHTML = "<h2>You clicked the button! Here is the second Heading!</h2>";
+});
 
 
 
 // Create 3 examples of JS being added to the HTML page immediately. 
 // You'll need to create both the HTML and JS for this. 
 
-
-
-
+document.getElementById("number-four-one").innerHTML = "<p>Example 1</p>";
+document.getElementById("number-four-two").innerHTML = "<p>Example 2</p>";
+document.getElementById("number-four-three").innerHTML = "<p>Example 3</p>";
 
 
 // Create 3 examples of JS being added to the HTML page based on button clicks. 
