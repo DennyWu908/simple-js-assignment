@@ -34,3 +34,9 @@ document.getElementById("number-four-three").innerHTML = "<p>Example 3</p>";
 // Create 3 examples of JS being added to the HTML page based on button clicks. 
 // You'll need to create both the HTML and JS for this. 
 
+document.getElementById("step5-btn").addEventListener("click", function(){
+    document.getElementById("step5-message-one").innerHTML = "<p>Here is a sentence created with JS code!</p>";
+    document.getElementById("step5-message-two").innerHTML = "<p>Here is another sentence created with JS code!</p>";
+    document.getElementById("step5-message-three").innerHTML = "<p>Here is a third sentence created with JS code!</p>";
+});
+
